@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+              background-color: grey;
+            }
+
+            h1 {
+  text-align: center;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+            </style>
+        <!--
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        -->
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+
+        <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+        <!--
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        -->
+        <title>Tela de Login</title>
+
+    
+
+    </head>
+    <body>
+
+      
+      <h1>Login</h1>
+      <p onmousedown="myFunction(this,'red')" onmouseup="myFunction(this,'green')"></p>
+      <p></p>
+      <p></p>
+      <p></p>
+      
+      <form>
+        <label for="fname">Usuario:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+
+        <label for="lname">Senha:</label><br>
+        <input type="secret" id="lname" name="lname"><br><br>
+        <button type="button" onclick="document.getElementById('id1').style.color = 'red'">
+        OK</button>
+      </form> 
+      
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
